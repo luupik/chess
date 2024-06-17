@@ -53,10 +53,10 @@ nav ul li a:hover {
     background-image: url('img/josh-cris-gayle-3xMaFio-A7Q-unsplash.jpg'); 
     background-size: cover; 
     background-position: center;
-    background-position: center; /* center the image horizontally and vertically */
-    display: flex; /* use flexbox to center the text */
-    justify-content: center; /* center the text horizontally */
-    align-items: center; /* center the text vertically */
+    background-position: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
     text-align: center;
   }
 
