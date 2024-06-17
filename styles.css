@@ -4,20 +4,25 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f0f0f0;
-    color: #333;
+    color: #000000;
+}
+
+#logo {
+    font-size: 3rem;
 }
 
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 1rem 0;
+    font-size: 1rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 1;
     margin: 0;
 }
 
@@ -43,15 +48,25 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.showcase img {
-    width: 100%;
-    max-width: 400px; 
-    height: auto;
-    border-radius: 8px;
-    margin-top: 1rem; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-}
+.welcome-section {
+    height: 100vh; 
+    background-image: url('img/josh-cris-gayle-3xMaFio-A7Q-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-position: center; /* center the image horizontally and vertically */
+    display: flex; /* use flexbox to center the text */
+    justify-content: center; /* center the text horizontally */
+    align-items: center; /* center the text vertically */
+    text-align: center;
+  }
 
+  .welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
 .icons {
     display: flex;
     justify-content: space-around;
@@ -66,7 +81,7 @@ nav ul li a:hover {
 
 .icon-item i {
     font-size: 3rem;
-    color: #444;
+    color: #000000;
 }
 
 .icon-item p {
@@ -196,11 +211,11 @@ contact-form input[type="submit"]:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-}
+} 
 
 @media only screen and (max-width: 600px) {
     nav ul {
